@@ -44,7 +44,7 @@ function Movies() {
       director: "Miguel Salazar",
     },
     {
-      poster: "https://pcbushi.files.wordpress.com/2017/10/imp.jpg?w=430&h=605",
+      poster: "https://m.media-amazon.com/images/M/MV5BOTk2NTg3YWYtNDM2OC00MzljLThhYmQtNDVhNjU0ZjY1ODJjXkEyXkFqcGdeQXVyMTMwNjQxNDU1._V1_FMjpg_UX1000_.jpg",
       id: 7,
       title: "Wet Sand",
       director: "Elene Naveriani",
