@@ -40,21 +40,21 @@ function Movies() {
     {
       poster: "https://images.justwatch.com/poster/300987859/s332/ciro-y-yo",
       id: 6,
-      title: "Brave New World",
-      director: "Aldous Huxley",
-    },
-    {
-      poster: "https://pcbushi.files.wordpress.com/2017/10/imp.jpg?w=430&h=605",
-      id: 7,
       title: "Ciro and Me",
       director: "Miguel Salazar",
     },
     {
-      poster:
-        "https://m.media-amazon.com/images/M/MV5BOTk2NTg3YWYtNDM2OC00MzljLThhYmQtNDVhNjU0ZjY1ODJjXkEyXkFqcGdeQXVyMTMwNjQxNDU1._V1_FMjpg_UX1000_.jpg",
-      id: 8,
+      poster: "https://pcbushi.files.wordpress.com/2017/10/imp.jpg?w=430&h=605",
+      id: 7,
       title: "Wet Sand",
       director: "Elene Naveriani",
+    },
+    {
+      poster:
+        "https://upload.wikimedia.org/wikipedia/en/8/85/My_Life_as_a_Zucchini.jpg",
+      id: 8,
+      title: "My Life as a Zucchini",
+      director: "Claude Barras",
     },
     {
       poster:
