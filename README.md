@@ -16,7 +16,7 @@
 - Display of images and texts
 
 ## :computer: Deploy
-- [Deploy](https://personal-project-iota-blue.vercel.app/)
+- [Deploy](https://personal-project-94zulrvgl-gabrielamylonas.vercel.app/about)
 - [Code](https://github.com/gabrielamylonas/Personal-project/tree/main)
 
 ## :arrow_forward: How to run the code
