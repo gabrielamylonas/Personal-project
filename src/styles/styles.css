@@ -1,0 +1,50 @@
+@import url("./about.css");
+@import url("./family.css");
+@import url("./curriculum.css");
+
+@font-face {
+  font-family: VT323;
+  src: url(../font/VT323-Regular.ttf);
+}
+
+* {
+  text-decoration: none;
+}
+
+body {
+  background-color: #b43fc6;
+  color: #eaffe6;
+  font-family: VT323;
+  width: 100vw;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 30px;
+}
+
+a {
+  color: #eaffe6;
+}
+
+nav .nav {
+  color: #eaffe6;
+}
+
+nav li.active {
+  text-decoration: underline;
+}
+
+nav li :hover {
+  text-decoration: underline;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

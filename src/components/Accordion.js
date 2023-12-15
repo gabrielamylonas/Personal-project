@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { GoChevronDown, GoChevronLeft } from "react-icons/go";
 
-function Accordion({ sections }) {
+function Accordion({ cards }) {
   const [expandedIndex, setExpandedIndex] = useState(0);
 
   const handleClick = (nextIndex) => {
@@ -14,7 +14,7 @@ function Accordion({ sections }) {
     });
   };
 
-  const renderedSections = sections.map((section, index) => {
+  const renderedCards = cards.map((card, index) => {
     const isExpanded = index === expandedIndex;
 
     const icon = (
@@ -24,19 +24,17 @@ function Accordion({ sections }) {
     );
 
     return (
-      <div className="section" key={section.id}>
+      <div className="cards" key={card.id}>
         <div className="label" onClick={() => handleClick(index)}>
-          {section.label}
+          {card.label}
           {icon}
         </div>
-        <div className="content">
-          {isExpanded && <div>{section.content}</div>}
-        </div>
+        <div className="content">{isExpanded && <div>{card.content}</div>}</div>
       </div>
     );
   });
 
-  return <div>{renderedSections}</div>;
+  return <div>{renderedCards}</div>;
 }
 
 export default Accordion;
