@@ -1,0 +1,45 @@
+.subtitle {
+  font-size: 30px;
+  text-align: center;
+  color: #330d3a;
+}
+
+.cv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  background-color: #6c1a7b;
+  padding: 20px;
+  padding-top: 50px;
+  border-radius: 25px;
+  width: 90vw;
+}
+
+.cv p {
+  font-size: 24px;
+  border-bottom: 3px solid #b43fc6;
+  padding-bottom: 10px;
+}
+
+.cv ul {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.cv li li {
+  list-style: square;
+}
+
+.first {
+  font-size: 22px;
+  margin-left: -15px;
+}
+
+.second {
+  font-size: 20px;
+  margin-left: -10px;
+}
