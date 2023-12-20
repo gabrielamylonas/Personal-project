@@ -4,7 +4,7 @@ function NavBar() {
   return (
     <nav className="nav">
       <ul>
-        <CustomLink to="/about">About</CustomLink>
+        <CustomLink to="/">About</CustomLink>
         <CustomLink to="/family">Family</CustomLink>
         <CustomLink to="/curriculum">Curriculum</CustomLink>
       </ul>
