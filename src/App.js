@@ -1,5 +1,5 @@
 import NavBar from "./components/NavBar";
-import Curriculum from "./pages/Curriculum";
+import Resume from "./pages/Resume";
 import Family from "./pages/Family";
 import About from "./pages/About";
 import { Route, Routes } from "react-router-dom";
@@ -12,7 +12,7 @@ function App() {
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="/family" element={<Family />} />
-          <Route path="/curriculum" element={<Curriculum />} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
       </div>
     </div>
